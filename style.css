@@ -33,7 +33,6 @@ main {
 }
 
 .container {
-    background-color: yellow;
     max-width: 600px;
     margin: 0 auto;
     min-height: 600px;
@@ -52,7 +51,7 @@ button {
 }
 
 .botton-blue {
-    background-color: aqua;
+    background-color: rgb(0, 136, 255);
     color: white;
     font-weight: bold;
     border-color: aqua;
@@ -65,6 +64,75 @@ button {
     border-color: grey;
 }
 
-#list {
+#list-container {
     background-color: white;
+    padding: 10px 20px;
+}
+
+.list {
+    list-style: none;
+}
+
+li {
+    margin: 20px;
+
+}
+
+.list-icon-check {
+    border-color: green;
+    border-style: groove;
+    color: green;
+}
+
+.list-icon-cross {
+    border-color: red;
+    border-style: groove;
+    color: red;
+}
+
+.list-icon {
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.list-text {
+    display: inline;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.list-label {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px; 
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;  
+}
+
+.editorial-text {
+    background-color: rgb(0, 136, 255);
+}
+
+.violet-label {
+    background-color: blueviolet;
+}
+
+.green-label{
+    background-color: green;
+}
+
+.orange-label {
+    background-color: orange;
+}
+
+.red-label {
+    background-color: rgba(162, 4, 67, 0.854);
 }
