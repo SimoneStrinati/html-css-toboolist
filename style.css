@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: rgb(234, 233, 233);
 }
 
 header {
@@ -14,7 +15,6 @@ header {
 }
 
 main {
-    background-color: rgb(234, 233, 233);
     padding: 20px 0;
 
 }
